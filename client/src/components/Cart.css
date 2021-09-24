@@ -1,0 +1,6 @@
+#cart-body{
+    display: flex;
+    justify-content: center;
+    background: url(https://coolbackgrounds.io/images/backgrounds/white/white-unsplash-9d0375d2.jpg)  no-repeat center center/cover;
+    min-height: 100vh;
+}

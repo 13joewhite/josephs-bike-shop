@@ -1,0 +1,30 @@
+#cart-body .cart-empty {
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#cart-body .cart-empty h2 {
+    padding: 20px;
+    font-size: xx-large;
+    color: #bd3900d0;
+    border-radius: 20px;
+}
+
+#cart-body .cart-empty button {
+    background: #bd3900ab;
+    border: rgba(0, 0, 0, 0.397) 2px solid;
+    color: rgb(255, 247, 247);
+    border-radius: 7px;
+    padding: 0px 5px 0px 5px;
+    margin-top: 5px;
+}
+
+#cart-body .cart-empty button:hover {
+    background: burlywood;
+    border: #bd3900ab 2px solid;
+    cursor: pointer;
+    color: black;
+}

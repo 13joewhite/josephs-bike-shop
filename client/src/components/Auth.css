@@ -1,0 +1,237 @@
+  .auth-container {
+    padding-top: 8%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: rgba(236, 219, 197, 0.075);
+  }
+  
+  .auth-container > h1 {
+    font-size: 2em;
+    margin: 24px;
+  }
+  
+  .auth-container > p {
+    margin: 16px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .auth-container > form {
+    border: 1px solid #3339;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #aaa9; 
+  
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-container > form > input {
+    margin: 16px 8px;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  .auth-container > form > button {
+    margin: 16px 8px;
+    padding: 8px;
+    border-radius: 4px;
+  }
+
+.logoName {
+    background: #bd3900ab;
+    border: burlywood 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+  .auth-container {
+    padding-top: 8%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .auth-container > h1 {
+    font-size: 2em;
+    margin: 24px;
+  }
+  
+  .auth-container > p {
+    margin: 16px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .auth-container > form {
+    border: 1px solid #3339;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #aaa9; 
+  
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-container > form > input {
+    margin: 16px 8px;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  .auth-container > form > button {
+    margin: 16px 8px;
+    padding: 8px;
+    border-radius: 4px;
+  }
+
+.container {
+    margin: 10px 10px 10px 10px;
+}
+
+  .auth-container {
+    padding-top: 8%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .auth-container > h1 {
+    font-size: 2em;
+    margin: 24px;
+  }
+  
+  .auth-container > p {
+    margin: 16px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .auth-container > form {
+    border: 1px solid #3339;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #aaa9; 
+  
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-container > form > input {
+    margin: 16px 8px;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  .auth-container > form > button {
+    margin: 16px 8px;
+    padding: 8px;
+    border-radius: 4px;
+  }
+
+.companyName {
+    color: burlywood;
+    width: 170px;
+    text-align: center;
+}
+
+  .auth-container {
+    padding-top: 8%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .auth-container > h1 {
+    font-size: 2em;
+    margin: 24px;
+  }
+  
+  .auth-container > p {
+    margin: 16px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .auth-container > form {
+    border: 1px solid #3339;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #aaa9; 
+  
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-container > form > input {
+    margin: 16px 8px;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  .auth-container > form > button {
+    margin: 16px 8px;
+    padding: 8px;
+    border-radius: 4px;
+  }
+
+.container a{
+    text-decoration: none;
+}
+
+  .auth-container {
+    padding-top: 8%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .auth-container > h1 {
+    font-size: 2em;
+    margin: 24px;
+  }
+  
+  .auth-container > p {
+    margin: 16px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .auth-container > form {
+    border: 1px solid #3339;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #aaa9; 
+  
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-container > form > input {
+    margin: 16px 8px;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  .auth-container > form > button {
+    margin: 16px 8px;
+    padding: 8px;
+    border-radius: 4px;
+  }
+
+.container .icon {
+    height: 60px;
+    width: 60px;
+    color: burlywood;
+    position: relative;
+    float: left;
+}

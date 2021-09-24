@@ -1,0 +1,56 @@
+#body {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-right: 0;
+}
+
+#bike-info img {
+    height: 200px;
+    padding: 10px;
+    margin: 20px;
+}
+
+#bike-info .bike-card {
+    margin-top: 10px;
+    width: 50vh;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: burlywood 1px solid;
+    margin: 10px;
+    border-radius: 10px;
+    background: white;
+}
+
+#bike-info .bike-card .card-text{
+    padding:  0 20px 0 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#bike-info .bike-card .card-text h4{
+    text-align: center;
+}
+
+#bike-info .bike-card .card-text .btn {
+    background: #bd3900ab;
+    border: burlywood 2px solid;
+    color: rgb(255, 247, 247);
+    border-radius: 7px;
+    padding: 0px 5px 0px 5px;
+    margin-top: 5px;
+}
+
+#bike-info .bike-card .card-text .btn:hover {
+    background: burlywood;
+    border: #bd3900ab 2px solid;
+    cursor: pointer;
+    color: black;
+}

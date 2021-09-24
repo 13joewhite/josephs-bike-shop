@@ -1,0 +1,39 @@
+#selected-bike {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    height: 100vh;
+}
+
+#selected-bike img {
+    height: 400px;
+    border: burlywood 2px solid;
+    border-radius: 10px;
+}
+
+#selected-bike .content {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-evenly;
+    padding: 0px 40px 0px 40px;
+}
+
+#selected-bike .content button{
+    width: 20vh;
+    background: #bd3900ab;
+    border: burlywood 2px solid;
+    color: rgb(255, 247, 247);
+    border-radius: 7px;
+    padding: 0px 5px 0px 5px;
+    margin-top: 5px;
+}
+
+#selected-bike .content button:hover{
+    background: burlywood;
+    border: #bd3900ab 2px solid;
+    cursor: pointer;
+    color: black;
+}

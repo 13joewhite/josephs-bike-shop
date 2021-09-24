@@ -1,0 +1,85 @@
+#head { 
+    background: url(https://static.vecteezy.com/system/resources/previews/002/082/487/non_2x/black-and-grey-overlayed-paper-layers-abstract-modern-header-with-place-for-your-text-material-design-banner-abstract-widescreen-background-vector.jpg) ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    width: 70vh;
+    justify-content: space-around;
+}
+
+#nav a{
+    text-decoration: none;
+}
+
+#nav .cart-container {
+    background: #bd3900ab;
+    border: burlywood 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;    
+    width: 15vh;
+    padding: 3px 10px 3px 10px;
+}
+
+#nav .cart-container svg{
+    color: burlywood;
+}
+
+#nav .cart-container h4{
+    color: burlywood;
+}
+
+#head .logoName {
+    background: #bd3900ab;
+    border: burlywood 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    border-radius: 20px;
+}
+
+#head .container {
+    margin: 10px 10px 10px 10px;
+}
+
+#head .companyName {
+    color: burlywood;
+    width: 170px;
+    text-align: center;
+}
+
+#head .container a{
+    text-decoration: none;
+}
+
+#head .container .icon {
+    height: 60px;
+    width: 60px;
+    color: burlywood;
+    position: relative;
+    float: left;
+}
+
+#head .selectbtn {
+    height: 25px;
+    background: #bd3900ab;
+    color: burlywood;
+    border-radius: 5px;
+    border: burlywood 2px solid;
+}
+
+.logout {
+    height: 25px;
+    background: #bd3900ab;
+    color: burlywood;
+    border-radius: 5px;
+    border: burlywood 2px solid;    
+}

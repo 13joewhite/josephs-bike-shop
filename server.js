@@ -11,11 +11,7 @@ app.use(express.json())
 app.use(morgan('dev'))
 
 //  Connect to DB
-mongoose.connect(process.env.MONGODB_URI, 
-  { useNewUrlParser: true,
-  useUnifiedTopology: true 
-  } );
-// mongoose.connect(process.env.REACT_APP_MONGODB_URI);
+mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true });
 
 app.use('/auth', require('./routes/authRouter'))
 app.use("/api", expressJwt({ secret: secret, algorithms: ['sha1', 'RS256', 'HS256'] }))
@@ -36,7 +32,7 @@ const path = require("path")
 if(process.env.NODE_ENV === 'production'){
   // Set static folder
   app.use('/static', express.static(path.join(__dirname, 'client/build')));
-  
+
   app.get('*', (req, res) => res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html')));
 }
 

@@ -65,8 +65,8 @@ export default function UserProvider(props) {
                     setBikeInfo(res.data)})
                 .catch(err => console.log(err))                    
             }
-
             console.log(cartItems)
+            
     return (
        <UserContext.Provider
             value={{

@@ -1,10 +1,10 @@
 const path = require("path")
 const express = require('express')
 const connectDB = require("./config/db")
-const app = express()
 const morgan = require('morgan')
 const expressJwt = require('express-jwt')
 const secret = process.env.SECRET || "basketball church guitar frog"
+const app = express()
 
 //  Connect to DB
 connectDB()

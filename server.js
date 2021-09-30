@@ -1,18 +1,17 @@
+const path = require("path")
 const express = require('express')
 const connectDB = require("./config/db")
 const app = express()
-require("dotenv").config()
 const morgan = require('morgan')
-const mongoose = require('mongoose')
 const expressJwt = require('express-jwt')
 const secret = process.env.SECRET || "basketball church guitar frog"
 
-//middleware
-app.use(express.json())
-app.use(morgan('dev'))
-
 //  Connect to DB
 connectDB()
+
+//middleware
+app.use(express.json({extended: false}))
+app.use(morgan('dev'))
 
 app.use('/auth', require('./routes/authRouter'))
 app.use("/api", expressJwt({ secret: secret, algorithms: ['sha1', 'RS256', 'HS256'] }))
@@ -28,7 +27,6 @@ app.use((err,res) => {
   }) 
 
   // ... other imports 
-const path = require("path")
 
 if(process.env.NODE_ENV === 'production'){
   // Set static folder

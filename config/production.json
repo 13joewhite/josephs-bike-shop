@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://13joewhite:13Daniel@bikeshopcluster.pmvrv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "jwtSecret": "ashleewaynelilalucy"
+}

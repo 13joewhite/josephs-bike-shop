@@ -1,4 +1,5 @@
 const express = require('express')
+const connectDB = require("./config/db")
 const app = express()
 require("dotenv").config()
 const morgan = require('morgan')
@@ -11,7 +12,7 @@ app.use(express.json())
 app.use(morgan('dev'))
 
 //  Connect to DB
-mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true });
+connectDB()
 
 app.use('/auth', require('./routes/authRouter'))
 app.use("/api", expressJwt({ secret: secret, algorithms: ['sha1', 'RS256', 'HS256'] }))

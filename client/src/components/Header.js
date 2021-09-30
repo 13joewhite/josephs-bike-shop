@@ -50,7 +50,7 @@ function Header(props) {
                         <h4>Cart ({props.cartTotal})</h4>
                     </div>
                 </Link>
-                <Link>
+                <Link to="/">
                     <button className="logout" onClick={logout}>Logout</button>
                 </Link>
             </div>
